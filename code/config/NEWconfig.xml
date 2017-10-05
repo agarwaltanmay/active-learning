@@ -1,0 +1,31 @@
+<activeLearning>
+<run>
+ <dataset>./data/blocks10RGB.libsvm</dataset>
+ <resFile>./res/blocks10RGB_BALANCED_EE.res</resFile>
+ <alg>BALANCED_EE</alg>
+ <folds>5</folds>
+ <num_query>100</num_query>
+</run>
+
+<svm>
+ <gamma>10</gamma>
+ <c>1000</c>
+</svm>
+
+<self_conf>
+ <initialSampleSize>100</initialSampleSize>
+ <minimal_sampleSize>10</minimal_sampleSize>
+ <decrement_size_per_round>1</decrement_size_per_round>
+</self_conf>
+
+<balanced aka="exploration">
+    <remark> Default values:  minimal_odds = 0.01, learning_rate=0.1
+      see  T. Osugi, D. Kun, and S. Scott; 
+      Balancing Exploration and Exploitation: A New Algorithm for Active Machine Learning.
+    </remark>
+    <minimal_odds_for_exploration>0.01</minimal_odds_for_exploration>
+    <learning_rate>0.1<learning_rate>
+    <randomSeed>123456789</randomSeed>
+</balanced>
+
+</activeLearning>
