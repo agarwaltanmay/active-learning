@@ -1,7 +1,7 @@
 # [Active Learning](https://en.wikipedia.org/wiki/Active_learning_(machine_learning))
 
 ## Description
-Classifying motion of an autonomous robot as translation or rotation - a project which was part of Machine Learning course at BITS Pilani
+Classifying motion of an autonomous robot as translation or rotation - a project which was part of [Machine Learning](https://en.wikipedia.org/wiki/Machine_learning) course at BITS Pilani
 The use of active learning in the classification problem was verified by using a linear [SVM classifier](https://en.wikipedia.org/wiki/Support_vector_machine#Linear_SVM) on the same dataset.
 
 ## What is Active Learning?
