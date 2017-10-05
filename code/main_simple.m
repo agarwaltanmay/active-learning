@@ -248,7 +248,7 @@ L = [
 U = allData(:, 2:3);
 
 % 'creating a SIMPLE active learner' 
-jLearner = active_create('KFF');
+jLearner = active_create('SIMPLE');
 M=[];
 for i = 1:15   
     active_learn(jLearner, L(:, 2:3), L(:,1));
